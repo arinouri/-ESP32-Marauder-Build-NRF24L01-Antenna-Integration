@@ -1,4 +1,4 @@
-📁 Project 1: ESP32 Marauder with NRF24L01 & TFT Display
+![image](https://github.com/user-attachments/assets/2437685a-7182-46aa-b2c4-f802272acbc9)📁 Project 1: ESP32 Marauder with NRF24L01 & TFT Display
 🧠 Overview
 This project involves building and flashing JustCallMeKoko's ESP32-Marauder, a wireless attack tool that runs on ESP32. The build is enhanced with a TFT display and an NRF24L01+PA+LNA long-range antenna to simulate and scan for 2.4GHz communications.
 
@@ -23,17 +23,24 @@ Breadboard and jumper wires
 
 
 ⚙️ Wiring - TFT Display
-| TFT Pin  | ESP32 Pin             |
-| -------- | --------------------- |
-| VCC      | 3.3V                  |
-| GND      | GND                   |
-| CS       | GPIO 15               |
-| RESET    | GPIO 4                |
-| DC/RS    | GPIO 2                |
-| SDI/MOSI | GPIO 23               |
-| SCK      | GPIO 18               |
-| LED      | 3.3V or GPIO with PWM |
+| TFT Pin Label | Function        | ESP32 Label          | GPIO       |
+| ------------- | --------------- | -------------------- | ---------- |
+| VCC           | Power           | VIN or 3U3           | 5V or 3.3V |
+| GND           | Ground          | GND                  | GND        |
+| CS            | TFT Chip Select | TX2                  | GPIO17     |
+| RESET         | Reset           | D5                   | GPIO5      |
+| DC            | Data/Command    | RX2                  | GPIO16     |
+| SDI(MOSI)     | SPI MOSI        | D23                  | GPIO23     |
+| SCK           | SPI Clock       | D18                  | GPIO18     |
+| LED           | Backlight       | D32                  | GPIO32     |
+| SDO(MISO)     | SPI MISO        | D19                  | GPIO19     |
+| T\_CLK        | Touch Clock     | D18                  | GPIO18     |
+| T\_CS         | Touch CS        | D21                  | GPIO21     |
+| T\_DIN        | Touch MOSI      | D23                  | GPIO23     |
+| T\_DO         | Touch MISO      | D19                  | GPIO19     |
+| T\_IRQ        | Touch IRQ       | VP or D36 (optional) | GPIO36     |
 
+![image](https://github.com/user-attachments/assets/be3eff80-d8ec-4730-ae8a-34cdf7dd13b8)
 
 
 ⚠️ Challenges
