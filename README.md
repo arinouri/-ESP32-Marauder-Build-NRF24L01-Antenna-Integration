@@ -40,7 +40,7 @@ Breadboard and jumper wires
 The TFT display lacked a proper pinout guide. Manual testing and mapping of each pin were necessary, which involved extensive debugging with the ILI9341 test sketch to achieve reliable output. This process also provided insights into efficient use of SPI and display buffers in the Arduino IDE.
 
 Snippet of code for NRF Adapter:
-
+```
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
@@ -65,7 +65,7 @@ void loop() {
     Serial.println(text);
   }
 }
-
+```
 
 
 Ethical Use & Reflection
