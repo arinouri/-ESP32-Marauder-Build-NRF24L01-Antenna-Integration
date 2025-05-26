@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/2437685a-7182-46aa-b2c4-f802272acbc9)📁 Project 1: ESP32 Marauder with NRF24L01 & TFT Display
+ESP32 Marauder with NRF24L01 & TFT Display
+
+
 🧠 Overview
 This project involves building and flashing JustCallMeKoko's ESP32-Marauder, a wireless attack tool that runs on ESP32. The build is enhanced with a TFT display and an NRF24L01+PA+LNA long-range antenna to simulate and scan for 2.4GHz communications.
 
@@ -41,6 +43,7 @@ Breadboard and jumper wires
 | T\_IRQ        | Touch IRQ       | VP or D36 (optional) | GPIO36     |
 
 ![image](https://github.com/user-attachments/assets/be3eff80-d8ec-4730-ae8a-34cdf7dd13b8)
+![image](https://github.com/user-attachments/assets/74fc245b-351e-424b-b0d5-94342a426ae2)
 
 
 ⚠️ Challenges
